@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.plants {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
