@@ -39,4 +39,5 @@ img {
   display: flex;
   flex-direction: column;
   max-width: 200px;
+  align-items: center;
 }
