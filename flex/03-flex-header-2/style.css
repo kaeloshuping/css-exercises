@@ -47,7 +47,7 @@ ul {
   list-style-type: none;
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   padding: 8px;
@@ -64,7 +64,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 16px;
-}
+} */
 
 /* suggested solution */
 
@@ -86,3 +86,26 @@ ul {
   align-items: center;
   gap: 16px;
 } */
+
+.header {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.left {
+  margin-right: auto;
+}
+
+button {
+  margin-right: 16px;
+}
